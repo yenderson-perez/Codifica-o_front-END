@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOEMULARIOS DE 'AMOR...'</title>
+</head>
+<body>
+    <form action="index_5.html" method="post">
+        <label fot="nomeCompleto">Nome completo</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto">
+
+        <label>
+            E-mail 
+            <input type="email" name="emailDoUsuario">
+        </label>
+
+        <label for="dataDeNacimento">Data De Nacimento</label>
+        <input type="date" id="dataDeNacimento" name="dataDeNacimento">
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+        <input type="password" id="senha" name="senha">
+
+        <label for="curriculo">Curriculo</label>
+        <input type="file" id="curriculo" name="curriculo" 
+            accept=".pdf">
+            <label for="range">Range</label>
+            <input type="range" min="7" max="10" step="1"
+            id="range" name="range">
+            
+
+            
+
+
+
+      
+        <!--Checkbox-->
+    <p>Quais tecnologias você conhece?</p>
+   
+    <label>
+        <input type="checkbox" name="tecnologia" value="html">
+        HTML 
+   </label>   
+   <br>
+   <br>
+   <label>
+   <input type="checkbox" name="tecnologia" value="css">
+        CSS 
+    </label>            
+    <br>
+    <br>
+    <label>           
+     <input type="checkbox" name="tecnologia" value="js">
+        JavaScript    
+    </label>  
+    <br>
+    <br>
+    <label>
+          <input type="checkbox" name="tecnologia" value="Sorvete">
+        SORVETE 
+    </label> 
+    <br>
+    <br>
+    <label>
+          <input type="checkbox" name="tecnologia" value="Ele te ama?">
+        Ele ama você? 
+    </label>      
+        <!---->
+    
+        <p>Qual é seu turno de estudo?</p>
+    <label>
+        <input type="radio" name="turno" value="manha">
+        Manhã
+    </label>
+    <br>
+    <br>
+    <label>
+        <input type="radio" name="turno" value="tarde">
+        Tarde
+    </label>
+    <br>
+    <br>
+    <label>
+        <input type="radio" name="turno" value="noite">
+        Noite
+    </label>
+    <br>
+    <br>
+
+    <label for="curso">Curso</label>
+    <select id="curso" name="curso">
+        <option value="">Selecione...</option>
+        <option value="informatica">Informatica</option>
+        <optgroup label="Gestão">
+            <option value="adm">Administração</option>
+            <option valeu="contabeis">Ciências Contabeis</option>
+        </optgroup>
+    </select>
+
+    <label for="cidades"></label>
+    <input list="cidades" id="cidade" name="cidade">
+    <details id="cidades">
+        <option value="Chapeco">
+        <option valeu="Joinville">
+        <option value="Florianopolis">
+    </details>
+
+
+
+
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

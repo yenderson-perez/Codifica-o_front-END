@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Da Amizade</title>
+</head>
+<body>
+ 
+    <form>
+    <fieldset>
+    <fieldset>
+<hr>
+        <legend>Dados Basicos🐢</legend>
+        <label for="nomeCompleto">Nome Completo🐢</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto">
+        <label for="email">E-mail🐢</label>
+        <input type="email" id="email" name="email">
+    <hr>
+    </fieldset>
+<br>
+<br>
+    <label for="cep">CEP🐢</label>
+    <input type="text" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" title="Formato:🐢 00000-000"
+    required>
+    <hr>
+    <label for="mensagem">Mensagem 🐢</label>
+    <textarea id="mensagem" name="mensagem" rows="5" cols="40" minlength="3" maxlength="500"></textarea>
+    
+    <label for="numero">Numero 🐢</label>
+    <input type="number" id="numero" name="numero" min="1" max="10">
+    
+    <label for="campoOculto">Campo Oculto 🐢</label>
+    <input type="text" id="campoOculto" name="campoOculto" readonly>
+
+    <label for="desabilitado">Desabilitado 🐢</label>
+    <input type="text" id="desabilitado" name="desabilitado" disabled>
+
+    <label for="email">E-mail 🐢</label>
+    <input type="email" id="email" autocomplete="email">
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</fieldset>
+
+
+</form>
+</body>
+</html>
